@@ -1,5 +1,5 @@
-#3,
-#4 {
+#three,
+#four {
     font-size: 24px;
 }
 
@@ -8,10 +8,12 @@
     font-style: 'Verdana', 'DejaVu Sans', sans-serif;
 }
 
-#2 {
+#two {
     font-size: 36px;
+    color: blue;
 }
 
-#4 {
+#four {
     font-weight: 700;
+    background-color: lightgreen;
 }
