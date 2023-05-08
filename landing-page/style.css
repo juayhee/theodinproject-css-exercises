@@ -1,4 +1,24 @@
-
-.header-bar {
+body {
     display: flex;
+}
+
+
+.left-margin,
+.right-margin {
+    width: 200px;
+}
+
+.header-logo-box,
+.header-links-box {
+    flex-grow: 1;
+}
+
+.header-logo-box {
+    display: flex;
+    justify-content: start;
+}
+
+.header-links-box {
+    display: flex;
+    justify-content: end;
 }
