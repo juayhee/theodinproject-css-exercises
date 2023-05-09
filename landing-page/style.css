@@ -1,5 +1,6 @@
 body {
     display: flex;
+    margin: 0;
 }
 
 ul {
@@ -9,12 +10,19 @@ ul {
     margin: 0;
     gap: 10px;
 }
-li > * {
+
+li>* {
     text-decoration: none;
     color: black;
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.header {
+    flex-grow: 1;
+    display: flex;
+    background-color: #1f2937;
 }
 
 .left-margin,
@@ -25,6 +33,12 @@ li > * {
 .header-logo-box,
 .header-links-box {
     flex-grow: 1;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    color: #f9faf8;
 }
 
 .header-links {
