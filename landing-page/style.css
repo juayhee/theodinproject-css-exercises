@@ -17,12 +17,15 @@ li>* {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     color: #e5e7eb;
+    font-weight: regular;
 }
 
 .header {
     flex-grow: 1;
     display: flex;
     background-color: #1f2937;
+    font-weight: 800;
+    padding: 10px;
 }
 
 .left-margin,
@@ -33,6 +36,7 @@ li>* {
 .header-logo-box,
 .header-links-box {
     flex-grow: 1;
+    align-items: center;
 }
 
 .header-logo {
