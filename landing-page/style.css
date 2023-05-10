@@ -139,6 +139,11 @@ li>* {
     display: flex;
 }
 
+.info-text,
+.tile-text {
+    font-family: "Roboto", sans-serif;
+}
+
 .info-box {
     flex-grow: 1;
 }
@@ -147,6 +152,8 @@ li>* {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 24px;
+    font-weight: 600;
 }
 
 .info-tiles {
@@ -165,4 +172,6 @@ li>* {
 
 .tile-text {
     text-align: center;
+    font-size: 18px;
+    font-weight: 200;
 }
