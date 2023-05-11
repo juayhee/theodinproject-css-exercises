@@ -68,12 +68,13 @@ li>* {
     background-color: #1f2937;
     padding-top: 10px;
     padding-bottom: 10px;
-    gap: 5px;
+    gap: 0;
 }
 
 .hero-text-box,
 .hero-image-box {
     flex-grow: 1;
+    flex-basis: 40%;
 }
 
 .hero-image-box {
@@ -81,14 +82,8 @@ li>* {
     justify-content: center;
     align-items: center;
     background-color: gray;
-    flex-basis: 50%;
-    margin-right: 10px;
 }
 
-.hero-text-box {
-    flex-basis: 50%;
-    margin-left: 10px;
-}
 
 .hero-text {
     display: flex;
@@ -154,20 +149,26 @@ li>* {
     align-items: center;
     font-size: 24px;
     font-weight: 600;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .info-tiles {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 50px;
 }
 
 .tile-img {
-    padding: 20px;
+    min-width: 200px;
+    min-height: 200px;
     border-radius: 10px;
     border: solid;
     border-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tile-text {
