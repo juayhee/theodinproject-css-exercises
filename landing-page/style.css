@@ -160,9 +160,17 @@ li>* {
     gap: 50px;
 }
 
+.info-tile {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .tile-img {
     min-width: 200px;
+    max-width: 200px;
     min-height: 200px;
+    max-height: 200px;
     border-radius: 10px;
     border: solid;
     border-color: #3882f6;
@@ -172,7 +180,9 @@ li>* {
 }
 
 .tile-text {
+    width: 200px;
     text-align: center;
     font-size: 18px;
     font-weight: 200;
+    overflow-wrap: break-word;
 }
