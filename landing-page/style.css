@@ -158,6 +158,7 @@ li>* {
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
+    padding-bottom: 80px;
 }
 
 .info-tile {
@@ -185,4 +186,39 @@ li>* {
     font-size: 18px;
     font-weight: 200;
     overflow-wrap: break-word;
+}
+
+/* Quote */
+.quote {
+    display: flex;
+    background-color: #e5e7eb
+}
+
+.quote-box {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+}
+
+.quote>.left-margin,
+.quote>.right-margin {
+    min-width: 500px;
+}
+
+.quote-box {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.author {
+    text-align: end;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
 }
